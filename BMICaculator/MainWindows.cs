@@ -17,7 +17,7 @@ public partial class MainWindows : Form {
     }
 
     private Double BmiCalculator(float height  , float weight) {
-        return weight / Math.Pow(height, 2);
+        return weight / Math.Pow(height, 2); 
     }
 
     private String BmiCategory(double bmi) {
@@ -30,7 +30,7 @@ public partial class MainWindows : Form {
         } else if (bmi < 30) {
             bmiCategory = "Overweight";
         } else if (bmi < 35) {
-            bmiCategory = "Obesity II";
+            bmiCategory = "Obesity ";
         } else {
             bmiCategory = "Obesity II";
         }
