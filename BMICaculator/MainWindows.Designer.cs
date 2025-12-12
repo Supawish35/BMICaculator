@@ -57,19 +57,19 @@ partial class MainWindows {
         // 
         // label1
         // 
-        label1.Location = new System.Drawing.Point(174, 38);
+        label1.Location = new System.Drawing.Point(80, 38);
         label1.Name = "label1";
-        label1.Size = new System.Drawing.Size(61, 23);
+        label1.Size = new System.Drawing.Size(150, 23);
         label1.TabIndex = 2;
-        label1.Text = "Height\r\n";
+        label1.Text = "Height (centimeter)\r\n";
         // 
         // label2
         // 
-        label2.Location = new System.Drawing.Point(174, 71);
+        label2.Location = new System.Drawing.Point(80, 71);
         label2.Name = "label2";
-        label2.Size = new System.Drawing.Size(61, 23);
+        label2.Size = new System.Drawing.Size(150, 23);
         label2.TabIndex = 4;
-        label2.Text = "Weight\r\n";
+        label2.Text = "Weight (kilogram)\r\n";
         // 
         // weightTxt
         // 
